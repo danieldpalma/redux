@@ -1,6 +1,6 @@
 # Redux
 Usado como gerenciador de estados.
-Utiliza de Actions, Dispatch, Reducers e Storage.
+Utiliza de Actions, Dispatch, Reducers e Store.
 
 ## Actions
 É a ação que será passada ao Dispatch.
@@ -9,9 +9,9 @@ Utiliza de Actions, Dispatch, Reducers e Storage.
 Entrega a ação ao Reducer.
 
 ## Reducer
-Filtro das ações passado do Action para o Dispatch. Ele verifica e valida o tipo de Action, e após isso passa o novo estado ao Storage.
+Filtro das ações passado do Action para o Dispatch. Ele verifica e valida o tipo de Action, e após isso passa o novo estado ao Store.
 
-## Storage
+## Store
 Armazena os estados da aplicação.
 
 ### Obs
